@@ -1,4 +1,4 @@
-selenium==4.10.0
+pip==24.3.1
 webdriver-manager==4.0.2
 libnss3==3.79
 libgconf-2-4==3.2.6
