@@ -1,6 +1,6 @@
 pip==24.3.1
 webdriver-manager==4.0.2
-libnss3==3.79
+libnss3==3.68
 libgconf-2-4==3.2.6
 libxi6==1.7.10
 libxrender1==1.3.0
