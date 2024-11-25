@@ -1,5 +1,5 @@
-selenium==4.15.0
-webdriver-manager==4.2.0
+selenium==4.10.0
+webdriver-manager==4.0.2
 libnss3==3.79
 libgconf-2-4==3.2.6
 libxi6==1.7.10
