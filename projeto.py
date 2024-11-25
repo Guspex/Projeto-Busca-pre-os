@@ -36,7 +36,9 @@ add_background(image_url)
 def fetch_card_prices_with_selenium(card_list):
     chrome_options = Options()
     chrome_options.add_argument("--headless")
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
     base_url = "https://www.ligamagic.com.br/"
     data = []
